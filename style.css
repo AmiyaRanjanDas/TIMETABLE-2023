@@ -1,0 +1,467 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#logo1 {
+    width: 84px;
+    margin-top: 7px;
+    position: relative;
+    z-index: 2;
+}
+
+#MCA {
+    left: 71px;
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    top: 29px;
+    z-index:2;
+}
+
+#TTABLE {
+    /* left: 608px; */
+    position: absolute;
+    font-size: 27px;
+    padding-left: 28.5px;
+    color: white;
+    letter-spacing: 2px;
+    top: 27px;
+    z-index: 3;
+}
+
+#logo2 {
+    width: 219px;
+    margin-top: 8px;
+    position: relative;
+    z-index:2;
+}
+
+#mainheading {
+    background: black;
+    position: relative;
+    z-index:2;
+}
+
+#editLogo {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    padding: 5px 4px 3px 5.5px;
+    /* margin: 0px 7px; */
+    border-radius: 50%;
+}
+
+#editLogo:hover {
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+
+#navA {
+    color: white;
+    font-family: graduate;
+}
+#mainlink {
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    font-family: Graduate;
+    font-size: 11.5px;
+    margin-right: 10px;
+    position: relative;
+    z-index: 2;
+}
+
+#mainlink:hover {
+    box-shadow: 0 0 10px gold, 0 0 10px gold, 0 0 10px gold;
+}
+
+#UserName {
+    margin: 0px 10px 0 9px;
+    font-weight: 900;
+    text-shadow: 0 0 10px #fbff009a, 0 0 15px #fbff009f;
+    color: #ffffff;
+    padding: 0 5px;
+}
+
+#allHome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#homehead1 {
+    background-color: black;
+    /* background: url(images/back43.jpg); */
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+#homehead2 {
+    font-family: Satisfy;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    padding-top: 40px;
+}
+#homehead2 h2,#homehead2 h3,#homehead2 h4{
+    position: relative;
+    z-index: 2;
+}
+.aboutbox {
+    background-color: rgba(255, 238, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#hurryUp {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#mainTime {
+    font-size: 32px;
+    text-align: center;
+    padding: 6px;
+    padding-top: 15px;
+    font-family: Graduate;
+    text-shadow: 0 0 10px #fbff009a, 0 0 15px #fbff009f;
+    color: #ffffff;
+}
+
+#homehead2 h1 {
+    font-family: Graduate;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 0;
+}
+
+#homehead2 h2 {
+    font-size: 35px;
+}
+
+#homehead2 h4 {
+    font-size: 28px;
+}
+
+#homehead3,
+#homehead4 {
+    position: relative;
+    z-index: 2;
+    box-shadow: 13px 16px 15px #ffffff4d;
+    background: url(images/box.png) no-repeat 0 58%;
+    background-size: 100%;
+    margin: 3vh;
+    width: 50%;
+    min-height: 21rem;
+    margin-top: 10px;
+    border: 3px solid white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 50px;
+}
+
+#homehead3 h2,
+#homehead4 h2 {
+    font-family: Bree Serif;
+    font-size: 25px;
+    color: #ffea7c;
+}
+
+.btn2020 {
+    padding: 4px 7px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    font-family: Graduate;
+    font-size: 12px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.btn2020:hover {
+    box-shadow: 0 0 10px gold, 0 0 10px gold;
+    color: white;
+}
+
+
+#para {
+    font-family: Bree Serif;
+    font-size: 16px;
+    text-align: left;
+    color: #ffea7c;
+}
+
+#homehead3 h3,
+#homehead4 h3 {
+    font-family: Nova Square;
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    padding: 10px;
+}
+
+/* ======================================= */
+
+#mypdf {
+    width: 98%;
+    height: auto;
+}
+
+#pdfdiv {
+    background: rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+}
+
+#updateid {
+    color: white;
+}
+
+/* ============================================================================================================== */
+#AnimePic img{
+    position: absolute;
+    top: -26.8%;
+    z-index: 1;
+    animation: anime100 40s linear infinite;
+}
+@keyframes anime100
+{    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(130vh);
+    }
+}
+#AnimePic img:nth-child(1){
+    left: 6%;
+    animation-delay:26s;
+    width: 8.5%;
+    opacity: 0.8;
+}
+#AnimePic img:nth-child(2){
+    left: 47%;
+    animation-delay: 0s;
+    width: 7%;
+    opacity: 0.7;
+}
+#AnimePic img:nth-child(3)
+{
+    left: 8%;
+    animation-delay: 5s;
+    opacity: 0.8;
+    width: 7%;
+}
+#AnimePic img:nth-child(4)
+{
+    left: 70%;
+    animation-delay:21s;
+    width: 4%;
+    opacity: 0.65;
+}
+#AnimePic img:nth-child(5)
+{
+    left: 25%;
+    animation-delay:14s;
+    width: 10%;
+    opacity: 0.78;
+}
+#AnimePic img:nth-child(6)
+{
+    left: 92%;
+    animation-delay:31s;
+    width: 10%;
+    opacity: 0.6;
+}
+/* ============================================= */
+/* ============================================= */
+/* ================Responsive=================== */
+/* ============================================= */
+/* ============================================= */
+@media only screen and (max-width: 800px) {
+    #headDiv{
+        margin: 8px 0px 32px 0;
+    }
+    #logo1 {
+        width: 50px;
+        margin-top: 4px;
+    }
+
+    #MCA {
+        left: 49px;
+    position: absolute;
+    font-size: 17px;
+    color: white;
+    top: 30px;
+    }
+
+    #TTABLE {
+        position: absolute;
+    font-size: 18px;
+    padding-left: 19px;
+    color: white;
+    letter-spacing: 2px;
+    top: 32px;
+    z-index:2;
+    }
+
+    #logo2 {
+        width: 153px;
+        margin-top: 8px;
+    }
+
+    #editLogo {
+        font-size: 12.5px;
+        padding: 5px 4px 3px 5.5px;
+        margin: 0px 2px;
+    }
+
+    #allHome {
+        display: block;
+    }
+
+    #homehead1{
+        padding-bottom:8px;
+    }
+
+    #homehead2 {
+        padding: 0 30px;
+        padding-top: 15px;
+    }
+
+    #homehead2 h2 {
+        font-size: 23.5px;
+    }
+
+    #homehead2 h4 {
+        font-size: 20px;
+    }
+
+    #mainTime {
+        font-size: 19px;
+        padding: 5px;
+    }
+
+    #homehead3,
+    #homehead4 {
+        min-height: 15rem;
+        margin: 3% 4%;
+        margin-top: 0;
+        padding: 3vh 4vh;
+        width: 92%
+    }
+
+    #homehead3 h2,
+    #homehead4 h2 {
+        font-size: 16px;
+    }
+
+    .aboutbox {
+        padding: 8px;
+    }
+
+    .btn2020 {
+        padding: 4px;
+        border: 1.6px solid white;
+        font-size: 8px;
+    }
+
+    #homehead3 h3,
+    #homehead4 h3 {
+        font-size: 20px;
+    }
+
+    #para {
+        font-size: 10.8px;
+        padding: 0;
+    }
+
+    #mainlink {
+        font-size: 8px;
+        margin-right: 2px;
+    }
+
+    /* ============================================= */
+    #mypdf {
+        width: 98%;
+        height: 40%;
+    }
+
+    #pdfdiv {
+        width: 100%;
+        height: 100vh;
+        padding: 10px;
+    }
+
+    #updateid {
+        font-size: 17px;
+    }
+
+    /* ============================================================================================================== */
+#AnimePic img{
+    position: absolute;
+    top: -10%;
+    z-index: 1;
+    animation: anime100 60s linear infinite;
+}
+@keyframes anime100
+{    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(150vh);
+    }
+}
+#AnimePic img:nth-child(1){
+    left: 6%;
+    animation-delay:39s;
+    width: 19%;
+    opacity: 0.8;
+}
+#AnimePic img:nth-child(2){
+    left: 47%;
+    animation-delay: 0s;
+    width: 18%;
+    opacity: 0.75;
+}
+#AnimePic img:nth-child(3)
+{
+    left: 2%;
+    animation-delay: 8s;
+    opacity: 0.82;
+    width: 21%;
+}
+#AnimePic img:nth-child(4)
+{
+    left: 70%;
+    animation-delay:18s;
+    width: 8.1%;
+    opacity: 0.69;
+}
+#AnimePic img:nth-child(5)
+{
+    left: 25%;
+    animation-delay:28s;
+    width: 30%;
+    opacity: 0.83;
+}
+#AnimePic img:nth-child(6)
+{
+    left: 82%;
+    animation-delay:48s;
+    width: 21%;
+    opacity: 0.6;
+}
+}
