@@ -30,6 +30,9 @@ function AddName() {
     document.getElementById("UserName").innerHTML = nowName;
 }
 
+document.getElementById("editLogo").addEventListener("click",()=>{
+    EditName();
+})
 
 function EditName() {
     var UserName2 = prompt("Enter your Name", nowName);
@@ -49,7 +52,6 @@ function EditName() {
     nowName = localStorage.getItem("UserNameUp1");
     nowGroup = localStorage.getItem("Group");
     document.getElementById("UserName").innerHTML = nowName;
-
 }
 
 // ----------TimeLine----------
@@ -113,7 +115,7 @@ function updateTimeTable() {
                 ft.innerHTML = ("03:20 - 05:10");
             }
             else {
-                fp.innerHTML = ("PDS-LAB || RoomNo:#309");
+                fp.innerHTML = ("PDSS-LAB || RoomNo:#309-ENG-LAB");
                 ft.innerHTML = ("03:20 - 05:10");
             }
             sp.innerHTML = ("--NO CLASSES--");
@@ -128,7 +130,7 @@ function updateTimeTable() {
                 st.innerHTML = ("03:20 - 05:10");
             }
             else {
-                sp.innerHTML = ("PDS-LAB || RoomNo:#309");
+                sp.innerHTML = ("PDSS-LAB || RoomNo:#309-ENG-LAB");
                 st.innerHTML = ("03:20 - 05:10");
             }
             countdown = "15.20";
@@ -295,7 +297,7 @@ function updateTimeTable() {
             countdown = "14.25";
         }
         else if (time < 12.35 && time > 11.40) {
-            fp.innerHTML = ("DataStructure || RommNo:#467");
+            fp.innerHTML = ("DBMS || RommNo:#467");
             ft.innerHTML = ("11.40 - 12.35");
             sp.innerHTML = ("LUNCH -> Con.Hour -> E-Commerce || RoomNo:#467");
             st.innerHTML = ("12:35 - 01.30");
@@ -382,7 +384,7 @@ function updateTimeTable() {
             fp.innerHTML = ("--NO CLASSES--");
             ft.innerHTML = ("");
             if (nowGroup == "A1") {
-                sp.innerHTML = ("Tommorow Classes:" + "<br/>" + " PDS-LAB || RoomNo:#309");
+                sp.innerHTML = ("Tommorow Classes:" + "<br/>" + " PDS-LAB || RoomNo:#309(A)");
                 st.innerHTML = ("(FRI)09:50 - 11:40");
             }
             else {
@@ -479,7 +481,7 @@ function updateTimeTable() {
         else {
             fp.innerHTML = ("--NO CLASSES--");
             ft.innerHTML = ("");
-            sp.innerHTML = ("Next Classes:" + "<br/>" + "DataStructure || RoomNo:334");
+            sp.innerHTML = ("Next Classes:" + "<br/>" + "DataStructure || RoomNo:#435");
             st.innerHTML = ("(MON)10:45 - 11:40");
             countdown = "";
         }
@@ -487,14 +489,14 @@ function updateTimeTable() {
     else if (day == 6) {
         fp.innerHTML = ("SaturDay:"+ "<br/>" + "--NO CLASSES--");
         ft.innerHTML = ("");
-        sp.innerHTML = ("Next Classes:" + "<br/>" + "DataStructure || RoomNo:334");
+        sp.innerHTML = ("Next Classes:" + "<br/>" + "DataStructure || RoomNo:#435");
         st.innerHTML = ("(MON)10:45 - 11:40");
         countdown = "";
     }
     else {
         fp.innerHTML = ("SunDay:"+ "<br/>" + "--NO CLASSES--");
         ft.innerHTML = ("");
-        sp.innerHTML = ("Next Classes:" + "<br/>" + " DataStructure || RoomNo:334");
+        sp.innerHTML = ("Next Classes:" + "<br/>" + "DataStructure || RoomNo:#435");
         st.innerHTML = ("(MON)10:45 - 11:40");
         countdown = "";
     }
